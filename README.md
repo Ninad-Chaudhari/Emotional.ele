@@ -8,3 +8,5 @@ Access to mental health services and treatment remains an issue across the globe
 3. python app.py
 
 # Screenshots :
+![Screenshot](https://github.com/Ninad-Chaudhari/Emotional.ele/blob/main/ScreenShots/Screenshot%20(645).png)
+![ScreenShot](https://github.com/Ninad-Chaudhari/Emotional.ele/blob/main/ScreenShots/Screenshot%20(646).png)
