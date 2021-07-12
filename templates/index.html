@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../static/styles/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="main-screen mx-auto">
+      <img src="../static/logo.png" width="137px" height="125px" >
+      <div class="chat scroll">
+        <ol id="recordingsList">
+          <li><p class="response">{{ greet }}</p></li>
+        </ol>
+      </div>
+      <div id="chip-options">
+        <ul id="chipList">
+        </ul>
+      </div>
+      <div id="controls">
+        <button id="recordButton"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+        <button id="stopButton" disabled><i class="fa fa-microphone-slash" aria-hidden="true"></i></button>
+        <!-- <input id= -->
+      </div>
+    </div>
+    <!-- inserting these scripts at the end to be able to use all the elements in the DOM -->
+  	<script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+  	<script src="../static/js/app.js?u={{ last_updated }}"></script>
+  </body>
+</html>
